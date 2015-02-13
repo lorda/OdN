@@ -2,6 +2,10 @@
 
 Un projet de David Royer et Antoine Lord.
 
+Créé en février 2015 à Québec.
+
+Shoutout à tous ceux qui nous ont rendu possible la réalisation de ce projet.
+
 ## Roadmap
 
 - Intégration du site desktop [EN COURS]
