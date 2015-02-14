@@ -14,3 +14,9 @@ Shoutout à tous ceux qui nous ont rendu possible la réalisation de ce projet.
 - Mise en ligne beta
 - Tests utilisateurs
 - Mise en ligne finale
+
+## Idées / Trucs à ajouter
+
+- PACE.js : http://github.hubspot.com/pace/
+- PhotoSwipe.js : http://photoswipe.com/
+- ToneDen Player : https://www.toneden.io/player
