@@ -7411,6 +7411,8 @@ th.hide-for-touch {
 .st-effect-3.st-menu::after {
   display: none; }
 
+/* @import '_pagination'; */
+/* http://codyhouse.co/gem/css-pagination/ */
 h1, h2, h3, h4, h5, h6 {
   font-family: KarlaReg;
   color: #D6D6D6;
@@ -7422,7 +7424,7 @@ h1 {
 
 h2 {
   font-size: 26px;
-  padding: 0.2em 0 0.6em 0; }
+  padding: 0.4em 0 0.4em 0; }
 
 p, span, li {
   font-family: AtlasTypewriterLight;
@@ -7430,6 +7432,8 @@ p, span, li {
   font-size: 14px; }
 
 a {
+  font-family: AtlasTypewriterLight;
+  font-size: 14px;
   color: #E7AB04;
   border-bottom: solid #E7AB04 2px; }
 
@@ -7500,7 +7504,7 @@ a {
   margin-top: 20px;
   padding-bottom: 60px; }
 
-.article {
+.article, .dernier-article {
   margin-bottom: 80px; }
 
 .img-article {
@@ -7512,21 +7516,19 @@ a {
   padding-top: 7px;
   display: inline;
   /* text-align: center; */
-  padding-top: 0; }
+  padding-top: 0.6em 0 0 0; }
   .meta-article span {
     width: 30vp; }
-
-.date-article {
-  color: #E7AB04; }
 
 .date-article::after {
   content: ' '; }
 
 .cat-article {
-  color: #959595; }
+  border: none; }
 
 .cat-article::before {
-  content: '/ '; }
+  content: '/ ';
+  color: #D6D6D6; }
 
 .btn-suite {
   display: block;
@@ -7535,3 +7537,16 @@ a {
   font-family: AtlasTypewriterReg;
   color: #E7AB04;
   text-align: center; }
+
+.dernier-article {
+  margin-bottom: 0px; }
+
+.pagination-centered {
+  /* height: 80px; */ }
+
+footer {
+  margin-top: 60px; }
+
+#logo-footer {
+  width: 100%;
+  height: 100px; }
