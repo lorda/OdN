@@ -1,6 +1,7 @@
 @import '_reset';
 @import '_foundation';
 @import '_fonts';
+@import '_animations';
 
 $jaune: #E7AB04;
 $grisFonce: #C2C2C2;
@@ -14,6 +15,15 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 0.6em;
 }
 
+h1 {
+  display: none;
+}
+
+h2 {
+  font-size: 26px;
+  padding: 0.2em 0 0.6em 0;
+}
+
 p, span, li {
   font-family: AtlasTypewriterLight;
   color: $grisFonce;
@@ -22,6 +32,7 @@ p, span, li {
 
 a {
   color: $jaune;
+  border-bottom: solid $jaune 2px;
 }
 
 #wrapper {
@@ -34,43 +45,65 @@ a {
 }
 
 #header {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 #nav {
+display : none; /* A enlever quand la nav va se cacher */
 
   ul {
     list-style-type: none;
     padding: 0;
     margin-left: 0;
+    text-align: center;
+    margin-bottom: 0px;
   }
 
   li {
-    margin: 0px 20px 0px 20px;
-    display: inline;
+    margin: 0px 0px 0px 0px;
+    /* display: inline; */
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    height: 45px;
+    vertical-align: middle;
+    line-height: 45px;
   }
 
   li:first-of-type {
-    margin-left: 0;
+    margin-left: none;
   }
 
   a {
     color: $grisPale;
+    text-align: center;
+    width: 100%;
+    border: 0;
   }
 
 }
 
 #meta {
+  display: inline;
 
   ul {
     list-style-type: none;
     padding: 0;
     float: right;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
   }
 
   li {
-    margin: 0px 20px 0px 20px;
+    margin: 0px 0px 0px 0px;
     display: inline;
+    text-align: center;
+    height: 45px;
+    float: left;
+    width: 50%;
+    vertical-align: middle;
+    line-height: 45px;
   }
 
   li:last-of-type {
@@ -79,24 +112,37 @@ a {
 
   a {
     color: #C3C3C3;
+    text-align: center;
+    width: 100%;
+    border: 0;
   }
 
 }
 
 #articles {
-  margin-top: 120px;
+  margin-top: 20px;
+  padding-bottom: 60px;
 }
 
 .article {
-  margin-bottom: 120px !important;
+  margin-bottom: 80px;
 }
 
 .img-article {
-  margin-bottom: 20px;
+  padding: 0 0 0 0;
+  margin-bottom: 5px;
+  width: 100%;
 }
 
 .meta-article {
   padding-top: 7px;
+  display: inline;
+  /* text-align: center; */
+  padding-top: 0;
+
+  span {
+    width: 30vp;
+  }
 }
 
 .date-article {
@@ -115,8 +161,14 @@ a {
   content: '/ ';
 }
 
+.corps-article {
+}
+
 .btn-suite {
+  display: block;
+  width: 100%;
   text-transform: uppercase;
   font-family: AtlasTypewriterReg;
   color: $jaune;
+  text-align: center;
 }

@@ -8,8 +8,12 @@ Shoutout à tous ceux qui nous ont rendu possible la réalisation de ce projet.
 
 ## Roadmap
 
-- Intégration du site desktop [EN COURS]
-- Intégration du site mobile
+- Intégration du site mobile [EN COURS]
+  - Intégrer la navigation avec le push
+  - Ajouter PhotoSwipe.js
+  - Ajouter Pagination (http://codyhouse.co/demo/pagination/index.html)
+  - Ajouter Google Analytics
+- Intégration du site desktop
 - Intégration du template avec Ghost
 - Mise en ligne beta
 - Tests utilisateurs
@@ -20,3 +24,5 @@ Shoutout à tous ceux qui nous ont rendu possible la réalisation de ce projet.
 - PACE.js : http://github.hubspot.com/pace/
 - PhotoSwipe.js : http://photoswipe.com/
 - ToneDen Player : https://www.toneden.io/player
+- CodyHouse Floating Nav : http://codyhouse.co/demo/smart-fixed-navigation/index.html
+- Tympanus slide-in nav : http://tympanus.net/Development/SidebarTransitions/
