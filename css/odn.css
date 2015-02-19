@@ -7557,3 +7557,18 @@ footer {
     text-align: left; }
     .btn-suite a {
       font-size: 14px; } }
+@media only screen and (min-width: 64.063em) {
+  #header {
+    padding-top: 40px; }
+
+  #nav-principale {
+    text-align: left !important; }
+
+  #meta {
+    text-align: right !important; }
+
+  .meta-article {
+    float: left; }
+
+  .corps-article {
+    float: left; } }

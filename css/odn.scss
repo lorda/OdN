@@ -235,8 +235,27 @@ footer {
       font-size: 14px;
     }
   }
+}
 
-  #nav-footer {
-    
+@media only screen and (min-width: 64.063em) {
+
+  #header {
+    padding-top: 40px;
+  }
+
+  #nav-principale {
+    text-align: left !important;
+  }
+
+  #meta {
+    text-align: right !important;
+  }
+
+  .meta-article {
+    float: left;
+  }
+
+  .corps-article {
+    float: left;
   }
 }
