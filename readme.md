@@ -9,7 +9,7 @@ Shoutout à tous ceux qui nous ont rendu possible la réalisation de ce projet.
 ## Roadmap
 
 - Intégration du site mobile [EN COURS]
-  - Intégrer la navigation avec le push
+  - [ANNULÉ] Intégrer la navigation avec le push
   - Ajouter PhotoSwipe.js
   - [FAIT] Ajouter Pagination (http://codyhouse.co/demo/pagination/index.html)
   - Ajouter Google Analytics

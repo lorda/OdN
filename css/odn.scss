@@ -5,13 +5,14 @@
 // @import '_pagination'; /* http://codyhouse.co/gem/css-pagination/ */
 
 $jaune: #E7AB04;
-$grisFonce: #C2C2C2;
-$grisMoyen: #D6D6D6;
+$texteFonce: #C2C2C2;
+$texteMoyen: #D6D6D6;
 $grisPale: #E6E6E6;
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: KarlaReg;
-  color: $grisMoyen;
+  //font-family: KarlaReg;
+  font-family: CircularStd;
+  color: $texteMoyen;
   line-height: 1.2em;
   padding-bottom: 0.6em;
 }
@@ -21,25 +22,25 @@ h1 {
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 30px;
   padding: 0.4em 0 0.4em 0;
 }
 
 p, span, li {
   font-family: AtlasTypewriterLight;
-  color: $grisFonce;
-  font-size: 14px;
+  color: $texteFonce;
+  font-size: 16px;
 }
 
 a {
   font-family: AtlasTypewriterLight;
-  font-size: 14px;
+  font-size: 16px;
   color: $jaune;
   border-bottom: solid $jaune 2px;
 }
 
 #wrapper {
-  color: $grisFonce;
+  color: $texteFonce;
   background-color: #1E1E1E;
 }
 
@@ -49,12 +50,11 @@ a {
 
 #header {
   width: 100vw;
-  height: 75vh;
+  height: 80vh;
   background-color: #151515;
 }
 
 #header {
-//display : none; /* A enlever quand la header va se cacher */
 
   ul {
     list-style-type: none;
@@ -84,6 +84,7 @@ a {
     text-align: center;
     width: 100%;
     border: 0;
+    font-size: 14px;
   }
 
   #logo {
@@ -100,7 +101,7 @@ a {
     margin-left: 0;
     text-align: center;
     margin-bottom: 0px;
-    color: $grisFonce;
+    color: $texteFonce;
   }
 
   li {
@@ -111,7 +112,7 @@ a {
     height: 45px;
     vertical-align: middle;
     line-height: 45px;
-    color: $grisFonce;
+    color: $texteFonce;
   }
 
   li:last-of-type {
@@ -167,7 +168,7 @@ a {
 
 .cat-article::before {
   content: '/ ';
-  color: $grisMoyen;
+  color: $texteMoyen;
 }
 
 .corps-article {
@@ -189,6 +190,29 @@ a {
 
 .pagination-centered {
   /* height: 80px; */
+}
+
+#zone-pagination {
+
+    ul li {
+        margin-right: 14px;
+        background-color: #5B5B5B;
+        border-radius: 6px;
+        min-width: 40px;
+        height: 40px;
+
+        a {
+            color: $texteMoyen;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 40px;
+            border: none;
+        }
+    }
+}
+
+.current {
+    background-color: $jaune !important;
 }
 
 footer {
@@ -286,7 +310,7 @@ footer {
 
   .meta-article {
     float: left !important;
-    padding-top: 16px;
+    padding-top: 20px;
   }
 
   .corps-article {
