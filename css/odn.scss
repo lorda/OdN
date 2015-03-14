@@ -10,8 +10,8 @@ $texteMoyen: #D6D6D6;
 $grisPale: #E6E6E6;
 
 h1, h2, h3, h4, h5, h6 {
-  //font-family: KarlaReg;
-  font-family: CircularStd;
+  font-family: KarlaReg;
+  //font-family: CircularStd;
   color: $texteMoyen;
   line-height: 1.2em;
   padding-bottom: 0.6em;
@@ -52,11 +52,11 @@ a {
   width: 100vw;
   height: 80vh;
   background-color: #151515;
-  background: url('../img/header_odn.png') no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  //background: url('../img/header_odn.png') no-repeat center center;
+  //-webkit-background-size: cover;
+  //-moz-background-size: cover;
+  //-o-background-size: cover;
+  //background-size: cover;
 }
 
 #header {
@@ -134,12 +134,12 @@ a {
 
 }
 
-#articles {
+#liste-articles {
   margin-top: 20px;
   padding-bottom: 60px;
 }
 
-.article {
+.acc-article {
   margin-bottom: 100px;
 }
 
@@ -189,7 +189,7 @@ a {
 }
 
 .dernier-article {
-  @extend .article;
+  @extend .acc-article;
   margin-bottom: 0px;
 }
 
@@ -257,7 +257,7 @@ footer {
     }
   }
 
-  #articles {
+  #liste-articles {
     margin-top: -100px;
   }
 
@@ -305,11 +305,11 @@ footer {
     text-align: right !important;
   }
 
-  #articles {
+  #liste-articles {
     margin-top: -120px;
   }
 
-  .article {
+  .acc-article {
     margin-bottom: 160px;
   }
 

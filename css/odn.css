@@ -7398,7 +7398,7 @@ th.hide-for-touch {
   font-family: CircularStd;
   src: url("../fonts/CircularStd-Book.otf"); }
 h1, h2, h3, h4, h5, h6 {
-  font-family: CircularStd;
+  font-family: KarlaReg;
   color: #D6D6D6;
   line-height: 1.2em;
   padding-bottom: 0.6em; }
@@ -7432,12 +7432,7 @@ a {
 #header {
   width: 100vw;
   height: 80vh;
-  background-color: #151515;
-  background: url("../img/header_odn.png") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  background-color: #151515; }
 
 #header ul {
   list-style-type: none;
@@ -7492,11 +7487,11 @@ a {
     border: 0;
     font-size: 14px; }
 
-#articles {
+#liste-articles {
   margin-top: 20px;
   padding-bottom: 60px; }
 
-.article, .dernier-article {
+.acc-article, .dernier-article {
   margin-bottom: 100px; }
 
 .img-article {
@@ -7578,7 +7573,7 @@ footer {
     #meta li {
       padding-right: 20px; }
 
-  #articles {
+  #liste-articles {
     margin-top: -100px; }
 
   .img-article {
@@ -7608,10 +7603,10 @@ footer {
   #meta {
     text-align: right !important; }
 
-  #articles {
+  #liste-articles {
     margin-top: -120px; }
 
-  .article, .dernier-article {
+  .acc-article, .dernier-article {
     margin-bottom: 160px; }
 
   .meta-article {
