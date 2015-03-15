@@ -13,3 +13,6 @@ permalink: pretty
 paginate: 1
 gems:
   - jekyll-sitemap
+
+sass:
+    style: :compressed
