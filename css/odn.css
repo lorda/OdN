@@ -7457,6 +7457,9 @@ header, footer {
   padding-bottom: 70px; }
   #derniers-articles article .img-article {
     padding: 0; }
+    #derniers-articles article .img-article img {
+      width: 100%;
+      height: auto; }
   #derniers-articles article .meta-article {
     height: 60px; }
     #derniers-articles article .meta-article span, #derniers-articles article .meta-article a {
@@ -7472,6 +7475,19 @@ header, footer {
   #derniers-articles article .btn-suite {
     text-transform: uppercase;
     font-size: 14px; }
+
+#acc-pagination {
+  height: 80px; }
+  #acc-pagination ul {
+    vertical-align: middle; }
+    #acc-pagination ul li {
+      line-height: 35px;
+      width: 35px; }
+      #acc-pagination ul li a {
+        color: #C2C2C2; }
+    #acc-pagination ul .current a {
+      color: #1E1E1E;
+      background: #E7AB04; }
 
 @media only screen and (min-width: 40.063em) {
   /* min-width 641px, medium screens */
@@ -7507,6 +7523,30 @@ header, footer {
       line-height: 60px;
       vertical-align: middle; } }
 @media only screen and (min-width: 64.063em) {
-  /* min-width 1025px, large screens */ }
+  /* min-width 1025px, large screens */
+  header, footer {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    header ul li a, footer ul li a {
+      font-size: 14px; }
+    header #logo, footer #logo {
+      font-size: 14px; }
+
+  #derniers-articles article {
+    padding-bottom: 100px; }
+    #derniers-articles article .img-article {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; }
+    #derniers-articles article .contenu-article {
+      padding-top: 30px; }
+      #derniers-articles article .contenu-article h2 {
+        font-size: 30px; }
+      #derniers-articles article .contenu-article p {
+        font-size: 16px; }
+    #derniers-articles article .meta-article {
+      height: 20px; }
+      #derniers-articles article .meta-article span, #derniers-articles article .meta-article a {
+        line-height: 20px;
+        vertical-align: top; } }
 
 /*# sourceMappingURL=odn.css.map */

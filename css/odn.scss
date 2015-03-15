@@ -93,6 +93,11 @@ header, footer {
 
         .img-article {
             padding: 0;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
         }
 
         .meta-article {
@@ -123,6 +128,28 @@ header, footer {
         .btn-suite {
             text-transform: uppercase;
             font-size: 14px;
+        }
+    }
+}
+
+#acc-pagination {
+    height: 80px;
+
+    ul {
+        vertical-align: middle;
+
+        li {
+            line-height: 35px;
+            width: 35px;
+
+            a {
+                color: $texteFonce;
+            }
+        }
+
+        .current a {
+            color: #1E1E1E;
+            background: $jaune;
         }
     }
 }
@@ -188,5 +215,55 @@ header, footer {
 
 @media only screen and (min-width: 64.063em) { /* min-width 1025px, large screens */
 
+    header, footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
 
+        ul {
+
+            li {
+
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        #logo {
+            font-size: 14px;
+        }
+    }
+
+    #derniers-articles {
+
+        article {
+            padding-bottom: 100px;
+
+            .img-article {
+                padding-left: 0.9375rem;
+                padding-right: 0.9375rem;
+            }
+
+            .contenu-article {
+                padding-top: 30px;
+
+                h2 {
+                    font-size: 30px;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+            }
+
+            .meta-article {
+                height: 20px;
+
+                span, a {
+                    line-height: 20px;
+                    vertical-align: top;
+                }
+            }
+        }
+    }
 }
