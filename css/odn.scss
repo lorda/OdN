@@ -5,13 +5,14 @@
 // @import '_pagination'; /* http://codyhouse.co/gem/css-pagination/ */
 
 $jaune: #E7AB04;
-$texteFonce: #C2C2C2;
-$texteMoyen: #D6D6D6;
+$texteFonce: #828282;
+$titre: #D6D6D6;
+$texteMoyen: #C2C2C2;
 $grisPale: #E6E6E6;
 
 h1, h2, h3, h4, h5, h6 {
     font-family: KarlaReg;
-    color: $texteMoyen;
+    color: $titre;
     line-height: 1.2em;
     padding-bottom: 0.6em;
 }
@@ -47,8 +48,9 @@ a {
 }
 
 header, footer {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 14px;
 
     ul {
         margin: 0;
@@ -61,13 +63,17 @@ header, footer {
         }
 
         li {
-            height: 45px;
+            height: 35px;
 
             a {
                 color: $texteMoyen;
-                line-height: 45px;
+                line-height: 35px;
                 vertical-align: middle;
             }
+        }
+
+        li:first-child {
+            height: 60px;
         }
     }
 
@@ -75,15 +81,38 @@ header, footer {
         display: block;
         color: $jaune;
         font-size: 16px;
+        line-height: 60px;
+        vertical-align: middle;
     }
 
     #meta-nav {
         margin-top: 10px;
+        color: $texteFonce;
 
         li a {
             color: $texteFonce;
         }
     }
+}
+
+header {
+    background-color: #151515;
+}
+
+#hero {
+    width: 100%;
+    height: 50vh;
+    background-color: #151515;
+    background: url(../img/header.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#contenu {
+    background-color: #1E1E1E;
+    margin-top: 100px;
 }
 
 #derniers-articles {
@@ -122,6 +151,10 @@ header, footer {
             h2 {
                 margin-top: 0;
                 padding-top: 0;
+            }
+
+            p {
+                color: $texteMoyen;
             }
         }
 

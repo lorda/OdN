@@ -7412,7 +7412,7 @@ h2 {
 
 p, span, li {
   font-family: AtlasTypewriterLight;
-  color: #C2C2C2;
+  color: #828282;
   font-size: 14px; }
 
 a {
@@ -7421,7 +7421,7 @@ a {
   color: #E7AB04; }
 
 #wrapper {
-  color: #C2C2C2;
+  color: #828282;
   background-color: #1E1E1E; }
 
 #copyright {
@@ -7429,8 +7429,9 @@ a {
   /* TEMPORAIRE */ }
 
 header, footer {
-  padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 14px; }
   header ul, footer ul {
     margin: 0;
     padding: 0;
@@ -7439,19 +7440,41 @@ header, footer {
     header ul #nav-principale li:first-child, footer ul #nav-principale li:first-child {
       margin-bottom: 20px; }
     header ul li, footer ul li {
-      height: 45px; }
+      height: 35px; }
       header ul li a, footer ul li a {
-        color: #D6D6D6;
-        line-height: 45px;
+        color: #C2C2C2;
+        line-height: 35px;
         vertical-align: middle; }
+    header ul li:first-child, footer ul li:first-child {
+      height: 60px; }
   header #logo, footer #logo {
     display: block;
     color: #E7AB04;
-    font-size: 16px; }
+    font-size: 16px;
+    line-height: 60px;
+    vertical-align: middle; }
   header #meta-nav, footer #meta-nav {
-    margin-top: 10px; }
+    margin-top: 10px;
+    color: #828282; }
     header #meta-nav li a, footer #meta-nav li a {
-      color: #C2C2C2; }
+      color: #828282; }
+
+header {
+  background-color: #151515; }
+
+#hero {
+  width: 100%;
+  height: 50vh;
+  background-color: #151515;
+  background: url(../img/header.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#contenu {
+  background-color: #1E1E1E;
+  margin-top: 100px; }
 
 #derniers-articles article {
   padding-bottom: 70px; }
@@ -7472,6 +7495,8 @@ header, footer {
   #derniers-articles article .corps-article h2 {
     margin-top: 0;
     padding-top: 0; }
+  #derniers-articles article .corps-article p {
+    color: #C2C2C2; }
   #derniers-articles article .btn-suite {
     text-transform: uppercase;
     font-size: 14px; }
@@ -7484,7 +7509,7 @@ header, footer {
       line-height: 35px;
       width: 35px; }
       #acc-pagination ul li a {
-        color: #C2C2C2; }
+        color: #828282; }
     #acc-pagination ul .current a {
       color: #1E1E1E;
       background: #E7AB04; }
@@ -7502,7 +7527,7 @@ header, footer {
         height: 45px;
         margin-right: 30px; }
         header ul li a, footer ul li a {
-          color: #D6D6D6; }
+          color: #C2C2C2; }
     header #logo, footer #logo {
       display: block;
       color: #E7AB04;
