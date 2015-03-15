@@ -8,15 +8,15 @@
         <nav class="row hide-for-medium-only"> <!-- MOBILE + DESKTOP -->
 
             <ul id="nav-principale" class="small-12 large-8 columns">
-                <li><a id="logo" href="index.html">Oiseaux de nuit</a></li>
-                <li><a href="#">Articles</a></li>
-                <li><a href="#">Médias</a></li>
-                <li><a href="#">Events</a></li>
+                <li><a id="logo" href="{{ site.baseurl }}">Oiseaux de nuit</a></li>
+                <li><a href="{{ site.baseurl }}/Articles">Articles</a></li>
+                <li><a href="{{ site.baseurl }}/Medias">Médias</a></li>
+                <li><a href="{{ site.baseurl }}/Events">Events</a></li>
             </ul>
 
             <ul id="meta-nav" class="small-12 large-4 columns">
-                <li><a href="#">À propos</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="{{ site.baseurl}}/about">À propos</a></li>
+                <li><a href="https://www.facebook.com/odnqc" target="_blank">Facebook</a></li>
             </ul>
 
         </nav> <!-- /MOBILE + DESKTOP -->
@@ -24,20 +24,21 @@
         <nav class="show-for-medium-only"> <!-- TABLET -->
 
             <div class="row">
-                <a id="logo" class="text-center" href="index.html">Oiseaux de nuit</a>
+                <a id="logo" class="text-center" href="{{ site.baseurl }}">{{ }}</a>
             </div>
 
             <div class="row">
 
-                <ul id="nav-principale" class="medium-7 columns">
-                    <li><a href="#">Articles</a></li>
-                    <li><a href="#">Médias</a></li>
-                    <li><a href="#">Events</a></li>
+                <ul id="nav-principale" class="small-12 large-8 columns">
+                    <li><a id="logo" href="{{ site.baseurl }}">Oiseaux de nuit</a></li>
+                    <li><a href="{{ site.baseurl }}/Articles">Articles</a></li>
+                    <li><a href="{{ site.baseurl }}/Medias">Médias</a></li>
+                    <li><a href="{{ site.baseurl }}/Events">Events</a></li>
                 </ul>
 
-                <ul id="meta-nav" class="medium-5 columns">
-                    <li><a href="#">À propos</a></li>
-                    <li><a href="#">Facebook</a></li>
+                <ul id="meta-nav" class="small-12 large-4 columns">
+                    <li><a href="{{ site.baseurl}}/about">À propos</a></li>
+                    <li><a href="https://www.facebook.com/odnqc" target="_blank">Facebook</a></li>
                 </ul>
 
             </div>

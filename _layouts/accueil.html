@@ -8,25 +8,40 @@
     {{ content }}
 
     <div id="acc-pagination">
+
         <div id="acc-pagination-mobile" class="pagination-centered hide-for-large-up small-12 columns">
             <ul class="pagination">
-                <li class="arrow unavailable"><a href="">&laquo;</a></li>
+
+                {% if paginator.previous_page %}
+                    {% if paginator.previous_page == 1 %}
+                    <li class="arrow"><a href="">&laquo;</a></li>
+                    {% else %}
+                    <li class="arrow"><a href="/page{{ paginator.previous_page }}/">&laquo;</a></li>
+                    {% endif %}
+                {% endif %}
                 <li class="current"><a href="">1</a></li>
                 <li><a href="">2</a></li>
                 <li><a href="">3</a></li>
                 <li><a href="">4</a></li>
-                <li class="arrow"><a href="">&raquo;</a></li>
+                {% if paginator.next_page %}
+                    <li class="arrow"><a href="/page{{ paginator.next_page }}/">&raquo;</a></li>
+                {% endif %}
+
             </ul>
         </div>
 
         <div id="acc-pagination-medium-up" class="show-for-large-up small-12 medium-12 large-8 large-offset-3 columns end">
             <ul class="pagination">
-                <li class="arrow unavailable"><a href="">&laquo;</a></li>
-                <li class="current"><a href="">1</a></li>
-                <li><a href="">2</a></li>
-                <li><a href="">3</a></li>
-                <li><a href="">4</a></li>
-                <li class="arrow"><a href="">&raquo;</a></li>
+                {% if paginator.previous_page %}
+                    {% if paginator.previous_page == 1 %}
+                    <li class="arrow"><a href="">&laquo;</a></li>
+                    {% else %}
+                    <li class="arrow"><a href="/page{{ paginator.previous_page }}/">&laquo;</a></li>
+                    {% endif %}
+                {% endif %}
+                {% if paginator.next_page %}
+                    <li class="arrow"><a href="/page{{ paginator.next_page }}/">&raquo;</a></li>
+                {% endif %}
             </ul>
         </div>
     </div>
