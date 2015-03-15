@@ -8,11 +8,11 @@ url: "http://oiseauxdenuit.ca" # the base hostname & protocol for your site
 copyright: "Copyright © Oiseaux de nuit 2015 — Tous droits réservés"
 
 # Build settings
-markdown: rdiscount
+markdown: kramdown
 permalink: pretty
 paginate: 1
 gems:
   - jekyll-sitemap
 
 sass:
-    style: :compressed
+    style: compressed

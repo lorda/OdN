@@ -1,5 +1,11 @@
 # Oiseaux de nuit
 
+Info : whatsup@oiseauxdenuit.ca
+
 Fondé par Antoine Lord et David Royer en février 2015 à Québec.
 
 Shoutout à tous ceux qui nous ont aidé pour ce projet.
+
+Site construit avec Jekyll.
+
+Programmé et intégré entièrement par Antoine Lord

@@ -4,14 +4,9 @@
 @import '_reset';
 @import '_foundation';
 @import '_fonts';
+@import '_variables';
 //@import '_animations';
 // @import '_pagination'; /* http://codyhouse.co/gem/css-pagination/ */
-
-$jaune: #E7AB04;
-$texteFonce: #828282;
-$titre: #D6D6D6;
-$texteMoyen: #C2C2C2;
-$grisPale: #E6E6E6;
 
 h1, h2, h3, h4, h5, h6 {
     font-family: KarlaReg;
@@ -21,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  display: none;
+    font-size: 34px;
 }
 
 h2 {

@@ -8,7 +8,7 @@ layout: homepage
 
 <div id="contenu">
 
-    <h1>{{ site.title }}</h1>
+    <h1 class="hide">{{ site.title }}</h1>
 
     <div id="derniers-articles">
 
@@ -25,7 +25,6 @@ layout: homepage
                     <div class="meta-article small-12 medium-8 medium-centered large-3 large-uncentered columns">
                         <span class="date-article">{{ post.date | date: "%d %-b, %y" }}</span>
                         <a class="cat-article" href="{{ post.category prepend: site.baseurl}}">{{ post.category}}</a>
-                        <br>
                         <!-- <span class="auteur-article">alord</span> -->
                     </div>
 
