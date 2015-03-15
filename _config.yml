@@ -2,9 +2,10 @@
 title: Oiseaux de nuit
 email: whatsup@oiseauxdenuit.ca
 description: > # this means to ignore newlines until "baseurl:"
-  Oiseauxdenuit.ca — Québec 2015. — PLUS D'INFOS BIENTÖT MON G.
+  Oiseauxdenuit.ca — Québec 2015. — PLUS D'INFOS BIENTÔT MON G.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://oiseauxdenuit.ca" # the base hostname & protocol for your site
+copyright: "Copyright © Oiseaux de nuit 2015 — Tous droits réservés"
 
 # Build settings
 markdown: rdiscount
