@@ -7430,7 +7430,7 @@ a {
 
 header, footer {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   font-size: 14px; }
   header ul, footer ul {
     margin: 0;
@@ -7440,17 +7440,17 @@ header, footer {
     header ul #nav-principale li:first-child, footer ul #nav-principale li:first-child {
       margin-bottom: 20px; }
     header ul li, footer ul li {
-      height: 35px; }
+      height: 45px; }
       header ul li a, footer ul li a {
         color: #C2C2C2;
-        line-height: 35px;
+        line-height: 45px;
         vertical-align: middle; }
     header ul li:first-child, footer ul li:first-child {
       height: 60px; }
   header #logo, footer #logo {
     display: block;
     color: #E7AB04;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 60px;
     vertical-align: middle; }
   header #meta-nav, footer #meta-nav {
@@ -7458,6 +7458,8 @@ header, footer {
     color: #828282; }
     header #meta-nav li a, footer #meta-nav li a {
       color: #828282; }
+    header #meta-nav li, footer #meta-nav li {
+      height: 37px; }
 
 header {
   background-color: #151515; }

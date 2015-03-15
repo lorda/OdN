@@ -49,7 +49,7 @@ a {
 
 header, footer {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     font-size: 14px;
 
     ul {
@@ -63,11 +63,11 @@ header, footer {
         }
 
         li {
-            height: 35px;
+            height: 45px;
 
             a {
                 color: $texteMoyen;
-                line-height: 35px;
+                line-height: 45px;
                 vertical-align: middle;
             }
         }
@@ -80,7 +80,7 @@ header, footer {
     #logo {
         display: block;
         color: $jaune;
-        font-size: 16px;
+        font-size: 17px;
         line-height: 60px;
         vertical-align: middle;
     }
@@ -91,6 +91,10 @@ header, footer {
 
         li a {
             color: $texteFonce;
+        }
+
+        li {
+            height: 37px;
         }
     }
 }
