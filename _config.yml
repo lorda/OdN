@@ -11,3 +11,5 @@ copyright: "Copyright © Oiseaux de nuit 2015 — Tous droits réservés"
 markdown: rdiscount
 permalink: pretty
 paginate: 1
+gems:
+  - jekyll-sitemap
