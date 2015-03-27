@@ -21,7 +21,6 @@ Shoutout à tous ceux qui nous ont rendu possible la réalisation de ce projet.
 
 ## Idées / Trucs à ajouter
 
-- PACE.js : http://github.hubspot.com/pace/
 - PhotoSwipe.js : http://photoswipe.com/
 - ToneDen Player : https://www.toneden.io/player
 - CodyHouse Floating Nav : http://codyhouse.co/demo/smart-fixed-navigation/index.html

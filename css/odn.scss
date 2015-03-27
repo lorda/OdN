@@ -25,13 +25,15 @@ h2 {
 }
 
 p, span, li {
-  font-family: AtlasTypewriterLight;
+  font-family: 'Inconsolata' ;
+  //font-family: AtlasTypewriterLight;
   color: $texteFonce;
   font-size: 14px;
 }
 
 a {
-    font-family: AtlasTypewriterLight;
+    font-family: 'Inconsolata' ;
+    //font-family: AtlasTypewriterLight;
     font-size: 16px;
     color: $jaune;
 }
@@ -132,6 +134,7 @@ header {
         }
 
         .meta-article {
+
             height: 60px;
 
             span, a {
@@ -185,6 +188,43 @@ header {
         .current a {
             color: #1E1E1E;
             background: $jaune;
+        }
+    }
+}
+
+/* #######  POST */
+
+#single-article {
+
+    #contenu-single-article {
+
+        h1 {
+            font-size: 45px;
+            padding-top: 100px;
+            padding-bottom: 10px;
+        }
+
+        #meta-single-article {
+            padding-bottom: 30px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6em;
+        }
+
+        p img {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+    }
+
+    #ftd-img {
+
+        img {
+            width: 100%;
+            height: auto;
         }
     }
 }
