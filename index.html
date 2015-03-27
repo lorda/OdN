@@ -28,9 +28,9 @@ layout: homepage
                         <!-- <span class="auteur-article">alord</span> -->
                     </div>
 
-                    <div class="corps-article small-12 medium-8 medium-centered large-8 large-uncentered columns end">
+                    <div class="corps-article small-12 medium-8 medium-centered large-6 large-uncentered columns end">
                         <h2>{{ post.title }}</h2>
-                        {{ post.excerpt }}
+                        {{ post.excerpt | truncatewords:35 }}
                         <span class="btn-suite"><a href="{{ post.url | prepend: site.baseurl }}" class="btn-suite">Lire la suite</a></span>
                     </div>
                 </div>
